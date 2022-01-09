@@ -1,2 +1,0 @@
-run = "g++ *.cpp && ./a.out"
-entrypoint = "solution.cpp"
