@@ -1,1 +1,2 @@
-Hello World!
+Enter num entries in data set 1: Enter your data set: Enter num entries in data set 2: Enter your data set: 4 5 1 0 145 22 9 10 3 -12 -412 325 
+Bye!

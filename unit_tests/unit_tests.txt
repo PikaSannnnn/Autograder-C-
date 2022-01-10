@@ -1,1 +1,56 @@
-2
+6
+7
+4 5 1 0 145 22 9
+5
+10 3 -12 -412 325
+merge
+exit
+3
+-10 -10 -10
+3
+-10 -10 -10
+print
+median
+merge
+median
+exit
+20
+958 412 -123 743 -532 864 910 492 -40 0 1 302 -429 642 420 -6 728 184 52 -1
+20
+52 123 534 642 958 888 777 321 -52 958 86 357 963 -568 -69 582 -9 11 592 333
+merge
+mean
+median
+range
+print
+exit
+0
+1
+45
+merge
+range
+exit
+4
+0 1 2 3 
+1
+4
+mean
+mean
+mean
+merge
+median
+range
+merge
+merge
+print
+median
+print
+exit
+0
+0
+mean
+median
+range
+merge
+mean
+exit
