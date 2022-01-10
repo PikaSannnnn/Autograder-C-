@@ -59,7 +59,7 @@ The program will start by asking the user for the size `n` of a data set. Each f
 ### Sample
 <details><summary>Input</summary>
     
-```c++
+```
 4
 0 1 2 3 
 1
@@ -82,6 +82,7 @@ exit
 
 <details>
     <summary>Output</summary>
+    
 ```
 Enter num entries in data set 1: 4
 Enter your data set: 0 1 2 3
