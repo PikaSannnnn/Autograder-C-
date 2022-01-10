@@ -1,7 +1,7 @@
 // Change to 0 to TURN OFF fail outputs, 1 to TURN ON fail outputs
 #define FAIL_OUT 1
 // Change to 1 to read from custom_inputs.txt
-#define CUSTOM_IN 1
+#define CUSTOM_IN 0
 
 // DO NOT EDIT BELOW THIS
 #include <iostream>

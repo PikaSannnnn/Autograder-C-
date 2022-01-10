@@ -1,4 +1,6 @@
 # Problem I
+**For a better formatted README, go [HERE](https://github.com/PikaSannnnn/Autograder-C-/tree/PS-1)**
+
 ### Introduction
 For every problem set, the focus will be to practice everything that was learnt up to that week and to apply them to problems of a higher degree of difficulty. The problems will mostly feel simple, but for each, it will require you to apply everything that you've learned before. *hint hint*
 
@@ -115,7 +117,6 @@ Bye!
 ```
 </details>
 
-
 ---
 
 ### Constraints
@@ -126,7 +127,70 @@ Bye!
 ---
 
 ### Tests
+#### Test Case 0
+#### Test Case 1
+#### Test Case 2
+#### Test Case 3
+#### Test Case 4
+<details><summary>Input</summary>
+    
+```
+4
+0 1 2 3 
+1
+4
+mean
+mean
+mean
+merge
+median
+range
+merge
+merge
+print
+median
+print
+exit
+```
+</details>
 
+
+<details>
+    <summary>Output</summary>
+    
+```
+Enter num entries in data set 1: 4
+Enter your data set: 0 1 2 3
+Enter num entries in data set 2: 1
+Enter your data set: 4
+mean
+No Merged Data Set
+mean
+No Merged Data Set
+mean
+No Merged Data Set
+merge
+0 1 2 3 4 
+median
+2
+range
+4
+merge
+0 1 2 3 4 
+merge
+0 1 2 3 4 
+print
+0 1 2 3 4 
+median
+2
+print
+0 1 2 3 4 
+exit
+Bye!
+```
+</details>
+
+#### Test Case 5
 
 ## The Auto-Grader
 ### What It Does:
