@@ -59,7 +59,8 @@ The program will start by asking the user for the size `n` of a data set. Each f
 ---
 
 ### Sample
-<details><summary>Input</summary>
+<details>
+    <summary>Input</summary>
     
 ```
 4
@@ -128,9 +129,105 @@ Bye!
 
 ### Tests
 #### Test Case 0
+<details><summary>Input</summary>
+
+```
+7
+4 5 1 0 145 22 9
+5
+10 3 -12 -412 325
+merge
+exit
+```
+</details>
+
+<details><summary>Output</summary>
+
+```
+Enter num entries in data set 1: Enter your data set: Enter num entries in data set 2: Enter your data set: 4 5 1 0 145 22 9 10 3 -12 -412 325 
+Bye!
+```
+</details>
+
 #### Test Case 1
+<details><summary>Input</summary>
+
+```
+3
+-10 -10 -10
+3
+-10 -10 -10
+print
+median
+merge
+median
+exit
+```
+</details>
+
+<details><summary>Output</summary>
+
+```
+Enter num entries in data set 1: Enter your data set: Enter num entries in data set 2: Enter your data set: No Merged Data Set
+No Merged Data Set
+-10 -10 -10 -10 -10 -10 
+-10
+Bye!
+```
+</details>
+
 #### Test Case 2
+<details><summary>Input</summary>
+
+```
+20
+958 412 -123 743 -532 864 910 492 -40 0 1 302 -429 642 420 -6 728 184 52 -1
+20
+52 123 534 642 958 888 777 321 -52 958 86 357 963 -568 -69 582 -9 11 592 333
+merge
+mean
+median
+range
+print
+exit
+```
+</details>
+
+<details><summary>Output</summary>
+
+```
+Enter num entries in data set 1: Enter your data set: Enter num entries in data set 2: Enter your data set: 958 412 -123 743 -532 864 910 492 -40 0 1 302 -429 642 420 -6 728 184 52 -1 52 123 534 642 958 888 777 321 -52 958 86 357 963 -568 -69 582 -9 11 592 333 
+326.4
+327
+1531
+958 412 -123 743 -532 864 910 492 -40 0 1 302 -429 642 420 -6 728 184 52 -1 52 123 534 642 958 888 777 321 -52 958 86 357 963 -568 -69 582 -9 11 592 333 
+Bye!
+```
+
+</details>
+
 #### Test Case 3
+<details><summary>Input</summary>
+
+```
+0
+1
+45
+merge
+range
+exit
+```
+</details>
+
+<details><summary>Output</summary>
+
+```
+Enter num entries in data set 1: Enter your data set: Enter num entries in data set 2: Enter your data set: 45 
+0
+Bye!
+```
+</details>
+
 #### Test Case 4
 <details><summary>Input</summary>
     
@@ -154,43 +251,51 @@ exit
 ```
 </details>
 
-
 <details>
     <summary>Output</summary>
     
 ```
-Enter num entries in data set 1: 4
-Enter your data set: 0 1 2 3
-Enter num entries in data set 2: 1
-Enter your data set: 4
-mean
+Enter num entries in data set 1: Enter your data set: Enter num entries in data set 2: Enter your data set: No Merged Data Set
 No Merged Data Set
-mean
 No Merged Data Set
-mean
-No Merged Data Set
-merge
 0 1 2 3 4 
-median
 2
-range
 4
-merge
 0 1 2 3 4 
-merge
 0 1 2 3 4 
-print
 0 1 2 3 4 
-median
 2
-print
 0 1 2 3 4 
-exit
 Bye!
 ```
 </details>
 
 #### Test Case 5
+<details><summary>Input</summary>
+
+```
+0
+0
+mean
+median
+range
+merge
+mean
+exit
+```
+</details>
+
+<details><summary>Output</summary>
+
+```
+Enter num entries in data set 1: Enter your data set: Enter num entries in data set 2: Enter your data set: No Merged Data Set
+No Merged Data Set
+No Merged Data Set
+No Merged Data Set
+No Merged Data Set
+Bye!
+```
+</details>
 
 ## The Auto-Grader
 ### What It Does:
